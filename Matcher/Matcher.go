@@ -1,7 +1,7 @@
 package matcher
 
-import "os/user"
+import "Tinder/user"
 
 type Matcher interface {
-	CalcMatchScore(u1 user.User,u2 user.User) 
+	CalcMatchScore(u1 user.User,u2 user.User) int
 }

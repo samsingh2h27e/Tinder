@@ -1,4 +1,4 @@
-package user
+package interest
 
 type Interest struct {
 	Name string
